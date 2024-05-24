@@ -36,3 +36,22 @@ body {
   cursor: pointer;
   transition: background-color 0.3s;
 }
+
+@keyframes gradientBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animated-background {
+  height: 100vh;
+  background: linear-gradient(-45deg, #9c533c, #853352, #1a5368, #15725c);
+  background-size: 400% 400%;
+  animation: gradientBG 15s ease infinite;
+}

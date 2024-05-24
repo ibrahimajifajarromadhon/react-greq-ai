@@ -3,6 +3,7 @@ export const typeText = (setData, text, language, callback) => {
   const cleanText = text.replace(regex, "").replace(/\s+/g, " ");
   const words = cleanText.split(" ");
   let i = 0;
+  setData("");
 
   const intervalId = setInterval(() => {
     setData((prev) => prev + words[i] + " ");

@@ -34,7 +34,7 @@ function App() {
   return (
     <div className="animated-background">
       <main className="flex flex-col min-h-[80vh] justify-center items-center max-w-xl w-full mx-auto">
-        <h1 className="text-4xl font-bold text-center mb-5 text-indigo-500">
+        <h1 className="text-4xl font-bold text-center mb-5 text-indigo-400">
           REACT | GROQ AI
         </h1>
         <div className="flex justify-between gap-4 py-4 w-full">
